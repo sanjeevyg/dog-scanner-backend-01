@@ -7,5 +7,5 @@ const port = process.env.PORT
 app.listen(port, () => console.log(`listening at port ${port}`))
 
 app.get('/', (request, response) => {
-    response.json("hello world")
+    response.json("Heroko test")
 })
